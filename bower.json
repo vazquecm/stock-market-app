@@ -1,0 +1,18 @@
+{
+  "name": "stock-market-app",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Carmen Vazquez-Marin <vazquecm@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/vazquecm/stock-market-app",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

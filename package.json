@@ -1,0 +1,36 @@
+{
+  "name": "stock-market-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bower": "bower",
+    "dev": "nodemon --harmony_destructuring server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vazquecm/stock-market-app.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": 0
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vazquecm/stock-market-app/issues"
+  },
+  "homepage": "https://github.com/vazquecm/stock-market-app#readme",
+  "dependencies": {
+    "bower": "^1.7.7",
+    "express": "^4.13.4"
+  }
+}
