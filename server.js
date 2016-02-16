@@ -1,5 +1,5 @@
 'use strict';
-
+/*eslint-disable no-unused-vars*/
 
 // including express that has HTTP/HTTPS
 const express = require('express');
