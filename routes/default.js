@@ -7,7 +7,7 @@ const router = express.Router();
 
 
 router.get('/default', (req, res) => {
-  res.send('working right here');
+  res.send('index');
 });
 
 

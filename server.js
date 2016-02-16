@@ -12,6 +12,9 @@ const routes = require('./routes/');
 // set port to environment port or 3000
 const PORT = process.env.PORT || 3000;
 
+// using the jade templates to compile
+app.set('view engine', 'jade');
+
 app.use(routes);
 
 
