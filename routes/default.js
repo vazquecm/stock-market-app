@@ -9,8 +9,8 @@ const test = require('../controllers/test.js')
 
 
 router.get('/default', (req, res) => {
-  res.send('index');
-});
+  res.send('index')
+})
 
 router.get('/example', (req, res) => {
 
