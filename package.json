@@ -1,12 +1,13 @@
 {
   "name": "stock-market-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "##stock-market-app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bower": "bower",
-    "dev": "nodemon --harmony_destructuring server.js"
+    "dev": "nodemon --harmony_destructuring server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,10 @@
   "homepage": "https://github.com/vazquecm/stock-market-app#readme",
   "dependencies": {
     "bower": "^1.7.7",
-    "express": "^4.13.4"
-  }
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "path": "^0.12.7",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {}
 }

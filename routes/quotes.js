@@ -1,13 +1,12 @@
 'use strict';
 
-
+// routes for buying some stock
 const express = require('express');
 const router = express.Router();
 
 
-
-router.get('/default', (req, res) => {
-  res.send('working right here');
+router.get('/quotes', (req, res) => {
+  res.send('lets get some stocks');
 });
 
 

@@ -5,7 +5,7 @@
   "authors": [
     "Carmen Vazquez-Marin <vazquecm@gmail.com>"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/vazquecm/stock-market-app",
   "moduleType": [],
   "ignore": [

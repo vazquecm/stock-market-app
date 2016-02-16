@@ -16,13 +16,6 @@ app.use(routes);
 
 
 
-
-
-
-
-
-
-
 // setting up our server
 app.listen(PORT, () => {
   console.log("are you listening?");
