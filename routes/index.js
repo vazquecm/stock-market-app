@@ -7,12 +7,14 @@ const router = express.Router();
 
 const defaultRoute = require('./default');
 const quotes = require('./quotes');
+const submitquotes = require('./submitquotes')
 const wrongWay = require('./wrongWay');
 
 // load routes in order of need - .use is middleware function
-router.use(defaultRoute);
-router.use(quotes);
-router.use(wrongWay);
+router.use(defaultRoute)
+router.use(quotes)
+router.use(submitquotes)
+router.use(wrongWay)
 
 
 
