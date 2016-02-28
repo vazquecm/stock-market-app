@@ -7,7 +7,9 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/vazquecm/stock-market-app",
-  "moduleType": [],
+  "moduleType": [
+    "node"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
