@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/vazquecm/stock-market-app#readme",
   "dependencies": {
+    "bcrypt": "^0.8.5",
     "body-parser": "^1.15.0",
     "bower": "^1.7.7",
     "express": "^4.13.4",
