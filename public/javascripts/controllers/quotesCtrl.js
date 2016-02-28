@@ -1,4 +1,6 @@
 "use strict";
+
+
  app.controller("quotesCtrl", ["$http", function($http)
  {
    const self = this;

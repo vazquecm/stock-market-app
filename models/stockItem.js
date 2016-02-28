@@ -7,7 +7,11 @@
    company: String,
    quantity: Number,
    purchasePrice: Number,
-   symbol: String
+   dailyStockPrice: Number,
+   originalStockPrice: Number,
+   symbol: String,
+   timestamp: { type: Number, default: Date.now }
+
  }))
 
 
